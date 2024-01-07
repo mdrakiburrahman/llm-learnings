@@ -1,0 +1,3 @@
+Generate a short funny poem or limerick to explain the given event. Be creative and be funny. Let your imagination run wild.
+The Poem must be exactly 4 sentences long.
+Event: {{$input}}
