@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sk-chatgpt-azure-function", "azure-function\sk-chatgpt-azure-function.csproj", "{7EBFA783-1D73-4467-AA4E-0CA41B3FA51F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "semantic-functions-generator", "semantic-functions-generator\semantic-functions-generator.csproj", "{81A4BD35-2A6A-4995-A0D6-4ED7D630E817}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EBFA783-1D73-4467-AA4E-0CA41B3FA51F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EBFA783-1D73-4467-AA4E-0CA41B3FA51F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EBFA783-1D73-4467-AA4E-0CA41B3FA51F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EBFA783-1D73-4467-AA4E-0CA41B3FA51F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81A4BD35-2A6A-4995-A0D6-4ED7D630E817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A4BD35-2A6A-4995-A0D6-4ED7D630E817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A4BD35-2A6A-4995-A0D6-4ED7D630E817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A4BD35-2A6A-4995-A0D6-4ED7D630E817}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D51E4592-D963-4FAB-B97D-9F1E0FDC1050}
+	EndGlobalSection
+EndGlobal
