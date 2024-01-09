@@ -40,8 +40,8 @@ var host = new HostBuilder()
                 Info = new OpenApiInfo()
                 {
                     Version = "1.0.0",
-                    Title = "My Plugin",
-                    Description = "This plugin does..."
+                    Title = "Math Plugin",
+                    Description = "This plugin does arithmetic."
                 },
                 Servers = DefaultOpenApiConfigurationOptions.GetHostNames(),
                 OpenApiVersion = OpenApiVersionType.V3,
