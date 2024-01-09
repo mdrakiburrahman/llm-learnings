@@ -27,7 +27,6 @@ internal static class KernelBuilderExtensions
                 {
                     kernelBuilder.Services.AddAzureOpenAIChatCompletion(
                         deploymentName: Env.Var("AzureOpenAI:ChatCompletionDeploymentName")!,
-                        modelId: Env.Var("AzureOpenAI:ChatCompletionModelId")!,
                         endpoint: Env.Var("AzureOpenAI:Endpoint")!,
                         apiKey: Env.Var("AzureOpenAI:ApiKey")!
                     );

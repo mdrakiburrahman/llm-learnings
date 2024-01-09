@@ -12,18 +12,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets"  />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Debug"  />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" />
+    <PackageReference Include="Microsoft.SemanticKernel" />
+    <PackageReference Include="Microsoft.SemanticKernel.Plugins.OpenApi" />
     <PackageReference Include="Newtonsoft.Json" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <!-- <PackageReference Include="Microsoft.SemanticKernel" />
-    <PackageReference Include="Microsoft.SemanticKernel.Functions.OpenAPI" /> -->
-
-    <ProjectReference Include="/Users/matthewbolanos/semantic-kernel/dotnet/src/SemanticKernel.MetaPackage/SemanticKernel.MetaPackage.csproj" />
-    <ProjectReference Include="/Users/matthewbolanos/semantic-kernel/dotnet/src/Functions/Functions.OpenAPI/Functions.OpenApi.csproj" />
   </ItemGroup>
 
   <ItemGroup>
